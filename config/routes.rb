@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :companies
+  resources :clients
   resources :cars, path: :carros, path_names: { new: :cadastrar, edit: :editar }
   resources :motorcycles, path: :motos, path_names: { new: :cadastrar, edit: :editar }
 
