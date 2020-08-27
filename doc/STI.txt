@@ -1,0 +1,11 @@
+rails g model Vehicle type plate color engine:integer gearbox:integer doors starter_system:integer
+
+Motorcycle < Vehicle
+
+
+Car < Vehicle
+
+
+rails g scaffold_controller cars plate color engine gearbox doors
+
+rails g scaffold_controller motocycles plate color engine gearbox starter_system:integer

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Plate:</strong>
+  <%= @motorcycle.plate %>
+</p>
+<p>
+  <strong>Color:</strong>
+  <%= @motorcycle.color %>
+</p>
+<p>
+  <strong>Engine:</strong>
+  <%= @motorcycle.engine %>
+</p>
+<p>
+  <strong>Starter system:</strong>
+  <%= @motorcycle.starter_system %>
+</p>
+<%= link_to 'Edit', edit_motorcycle_path(@motorcycle) %> |
+<%= link_to 'Back', motorcycles_path %>
